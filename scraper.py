@@ -200,6 +200,7 @@ class DataDragonScraper(ChampionResourceScraper):
         self.regions = [
             "en_US", "zh_TW"
         ]
+        makedirs(path_to_champions, exist_ok=True)
         self.path_to_champions = path_to_champions
         self.progressBar = progressBar
     
